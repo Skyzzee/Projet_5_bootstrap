@@ -1,0 +1,87 @@
+:root {
+    --Blanc : #ffffff;
+    --Noir : #000000;
+    --Orange : #ff6347;
+    --Gris : #797878;
+    --Gris_clair : #d9d7d7;
+}
+
+body {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+.apparition_ordi {
+    display : none;
+}
+
+/* Variables */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.orange {
+    color: var(--Orange);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.separators {
+    border-bottom : 1px solid var(--Orange);
+}
+
+/* header */
+.menu {
+    background-color: var(--Noir);
+}
+
+.menu_déroulant {
+    filter: invert(100%);
+}
+
+/* Slogan */
+.slogan {
+    background-image: url(../images/hero-image.jpg);
+    position: top left;
+    color: var(--Blanc);
+}
+
+/* main bottom */
+.main_bottom {
+    background-color: var(--Gris_clair);
+}
+
+/* Card */
+
+.circle img {
+    filter: invert(100%);
+    position : absolute ;
+    top : 20px ;
+    left : 20px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: var(--Noir);
+    position : relative;
+}
+
+.main_bottom button {
+    color : var(--Orange) ;
+}
+
+/* footer */
+footer {
+    background-color: var(--Orange);
+    color: var(--Blanc);
+}
+
+
+
+
