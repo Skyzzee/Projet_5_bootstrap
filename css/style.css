@@ -101,7 +101,9 @@ footer {
         color: var(--Blanc);
     }
 
-    
+    .container {
+        max-width: 100vw!important;  /* Enlever les marges */
+    }
 }
 
 
