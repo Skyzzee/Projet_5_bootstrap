@@ -82,6 +82,27 @@ footer {
     color: var(--Blanc);
 }
 
+@media screen and (min-width: 1200px){
 
+    .apparition_ordi {
+        display : block ; 
+    }
+
+    .apparition_tel {
+        display: none;
+    }
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: var(--Blanc);
+    }
+}
+
+
+   
 
 
